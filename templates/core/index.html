@@ -1,0 +1,15 @@
+{% extends 'core/base.html' %}
+
+{% block titulo %}Página de Leidy{% endblock %}
+
+{% block content %}
+{% load static %}
+    <section class="container">
+        <div class="row">
+            <h1 class="display1">{{ tittle }}</h1>
+            <p class="lead">{{ message }}</p>
+            <p>{{ datos.saludo }}</p>
+        </div>
+    </section>
+
+{% endblock %}
